@@ -403,6 +403,16 @@
 
   .pm-card ul li:last-child { border-bottom: none; }
 
+  .pm-card-note {
+    font-size: 0.74rem;
+    color: rgba(255,255,255,0.4);
+    font-style: italic;
+    margin-top: 0.85rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    line-height: 1.5;
+  }
+
   .pm-card ul li::before {
     content: '';
     position: absolute;
@@ -483,6 +493,48 @@
   }
 
   .results-group ul li:last-child { border-bottom: none; }
+
+  .methodology-note {
+    font-size: 0.78rem;
+    color: var(--mid);
+    font-style: italic;
+    margin-top: 0.9rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule);
+    line-height: 1.55;
+  }
+
+  .methodology-note strong {
+    font-style: normal;
+    color: var(--navy);
+  }
+
+  .recommend-list {
+    list-style: none;
+    padding: 0;
+    max-width: 760px;
+    margin-top: 1.5rem;
+  }
+
+  .recommend-list li {
+    font-size: 0.98rem;
+    color: var(--navy);
+    padding: 0.85rem 0 0.85rem 1.6rem;
+    position: relative;
+    border-bottom: 1px solid var(--rule);
+    line-height: 1.55;
+  }
+
+  .recommend-list li:last-child { border-bottom: none; }
+
+  .recommend-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0.85rem;
+    color: var(--orange);
+    font-weight: 600;
+  }
 
   .results-group ul li::before {
     content: '';
@@ -845,7 +897,7 @@
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">Case Study &nbsp;|&nbsp; Trade Show &amp; Experiential Marketing</p>
-    <h1 class="hero-title">The Industry's<br><em>Super Bowl</em><br>Trade Show</h1>
+    <h1 class="hero-title">The Auto Industry's<br><em>Super Bowl</em><br>Trade Show</h1>
     <p class="hero-sub">How automotiveMastermind turned the 2024 NADA Show into a brand relaunch, a pipeline engine, and a moment visible from space.</p>
     <div class="hero-stats">
       <div class="hero-stat">
@@ -857,8 +909,8 @@
         <span class="hero-stat-label">Measured Customer Value</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">$2M+</span>
-        <span class="hero-stat-label">Budget Managed</span>
+        <span class="hero-stat-num">$850K+</span>
+        <span class="hero-stat-label">Show-Specific Budget</span>
       </div>
       <div class="hero-stat">
         <span class="hero-stat-num">88K</span>
@@ -877,6 +929,7 @@
     <li><a href="#strategy">Strategy</a></li>
     <li><a href="#pm">PM &amp; Execution</a></li>
     <li><a href="#results">Results</a></li>
+    <li><a href="#recommendations">Next Steps</a></li>
   </ul>
 </nav>
 
@@ -945,7 +998,7 @@
         </ul>
       </div>
       <div class="show-year-card highlight">
-        <div class="show-year-label">2024 &mdash; Las Vegas &nbsp;&#9733; This Campaign</div>
+        <div class="show-year-label">2024 &mdash; Las Vegas, Feb. 1&ndash;4 &nbsp;&#9733; This Campaign</div>
         <div class="show-year-title">Driving the Future</div>
         <ul class="show-year-stats">
           <li>23,000+ automotive professionals in attendance</li>
@@ -1007,7 +1060,8 @@
       <div class="pillar-num">03</div>
       <div class="pillar-title">Content-Driven Booth Experience</div>
       <ul>
-        <li>Redesigned booth debuting new company positioning</li>
+        <li>Redesigned 50'×60' booth debuting new company positioning</li>
+        <li>Secured a prime show-floor location, positioned directly alongside parent company S&amp;P Global Mobility</li>
         <li>On-site content stage hosted by Wendy Engelhardt</li>
         <li>11 content stage interviews with customers, partners, and executives</li>
         <li>6 media interviews with tier-1 automotive publications</li>
@@ -1057,7 +1111,7 @@
         <span class="pm-card-icon">💰</span>
         <div class="pm-card-title">Budget &amp; Resource Management</div>
         <ul>
-          <li>Managed $2M+ event budget across venue, booth, travel, hospitality, and campaigns</li>
+          <li>Managed $850K+ show-specific budget across booth build, AV, SWAG, vendor coordination, and travel</li>
           <li>Negotiated vendor contracts for Sphere sponsorship, booth fabrication, AV, and catering</li>
           <li>Allocated resources across competing priorities to maximize ROI</li>
           <li>Maintained variance reporting and real-time financial forecasting</li>
@@ -1127,7 +1181,7 @@
     </div>
     <div class="result-block">
       <div class="result-num"><span>$335K</span></div>
-      <div class="result-label">BD Record in January</div>
+      <div class="result-label">Pre-Show BD/SD Record, Jan. 2024</div>
     </div>
   </div>
 
@@ -1135,10 +1189,10 @@
     <div class="results-group">
       <h4>Lead Generation</h4>
       <ul>
-        <li>137 new opportunities created</li>
-        <li>$896,200 in measured customer value</li>
-        <li>193 demo form submissions in January</li>
-        <li>3.9% email click-through rate, above benchmark</li>
+        <li>137 new opportunities created<sup>‡</sup></li>
+        <li>$896,200 in measured customer value<sup>*</sup></li>
+        <li>193 demo form submissions in January 2024</li>
+        <li>3.9% email click-through rate, nearly 2x the ~2% automotive email benchmark</li>
       </ul>
     </div>
     <div class="results-group">
@@ -1151,15 +1205,41 @@
       </ul>
     </div>
     <div class="results-group">
-      <h4>Digital &amp; Business</h4>
+      <h4>Business Development &amp; Digital</h4>
       <ul>
         <li>97,910 social media impressions</li>
         <li>2,590 social clicks, 1,350+ engagements</li>
-        <li>1,087 NADA landing page visitors</li>
-        <li>BD/SD closed January at record $335K</li>
+        <li>1,087+ NADA landing page visitors, a known tracking gap suppressed the true count</li>
+        <li>BD/SD closed a pre-show record $335K in January 2024<sup>†</sup></li>
+        <li>$71K new at-show contracts signed onsite</li>
+        <li>Strengthened Q1 2024 momentum and elevated category leadership</li>
       </ul>
     </div>
   </div>
+
+  <p class="disclaimer">
+    <strong>‡</strong> A separate GM partnership campaign ran alongside NADA outreach, 1,900 emails sent, 14% open rate, directly generating 6 new opportunities and $33K in MCV, not included in this total.
+  </p>
+  <p class="disclaimer">
+    <strong>*</strong> 137 opportunities × $6,540 average per-deal value (based on actual deal size once qualified) = $896,200 in CRM-assigned pipeline value.
+  </p>
+  <p class="disclaimer">
+    <strong>†</strong> Reflects existing pipeline accelerated during the GM partnership campaign window, ahead of the Feb. 1 show open, not limited to the 6 opportunities generated directly by that campaign.
+  </p>
+</section>
+
+<!-- FUTURE RECOMMENDATIONS -->
+<section class="section" id="recommendations">
+  <p class="section-label">Looking Ahead</p>
+  <h2 class="section-title">Future Recommendations<br>&amp; Strategic Insight</h2>
+  <ul class="recommend-list">
+    <li>Expand content-stage programming into year-round digital assets</li>
+    <li>Formalize a Sphere-level sponsorship playbook for signature activations</li>
+    <li>Scale pre-show pipeline campaigns for targeted OEM segments</li>
+    <li>Integrate VIP client hospitality into product launch cycles</li>
+    <li>Increase real-time data tracking and attribution modeling</li>
+    <li>Use this framework as a blueprint for future large-scale brand relaunches</li>
+  </ul>
 </section>
 
 <!-- TAKEAWAY -->
@@ -1173,7 +1253,7 @@
 <!-- FOOTER -->
 <footer>
   <span>automotiveMastermind &mdash; NADA 2024 &mdash; Case Study</span>
-  <span>Event Strategy &amp; Project Management</span>
+  <span>Event Strategy &amp; Project Management | Prepared exclusively for Employment or Contractual Assessment</span>
 </footer>
 
 </div><!-- /#site-content -->
